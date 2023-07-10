@@ -34,7 +34,7 @@
 	<body>
 		<!-- header -->
 		<nav
-			class="navbar navbar-expand-lg navbar-light bg-dark"
+			class="navbar navbar-expand-lg sticky-top navbar-light bg-dark"
 			data-bs-theme="dark"
 		>
 			<div class="container-fluid" width="60%" height="70%">
@@ -74,16 +74,6 @@
 								>CONTACT</a
 							>
 						</li>
-						<li class="nav-item">
-							<button
-								type="button"
-								class="nav-link active"
-								data-bs-toggle="modal"
-								data-bs-target="#staticBackdrop"
-							>
-								ADD
-							</button>
-						</li>
 					</ul>
 					<form class="d-flex">
 						<input
@@ -99,136 +89,89 @@
 				</div>
 			</div>
 		</nav>
-		<!-- Scrollable modal -->
-		<!-- Button trigger modal -->
-
-		<!-- Modal -->
-		<div
-			class="modal fade"
-			id="staticBackdrop"
-			data-bs-backdrop="static"
-			data-bs-keyboard="false"
-			tabindex="-1"
-			aria-labelledby="staticBackdropLabel"
-			aria-hidden="true"
-		>
-			<div
-				class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable"
-			>
-				<div class="modal-content">
-					<div class="modal-header">
-						<h1 class="modal-title fs-5" id="staticBackdropLabel">
-							ADD Product
-						</h1>
-						<button
-							type="button"
-							class="btn-close"
-							data-bs-dismiss="modal"
-							aria-label="Close"
-						></button>
-					</div>
-					<div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label for="title">Product Title:</label>
-								<input
-									type="text"
-									class="form-control"
-									id="title"
-									placeholder="Enter product title"
-									required
-								/>
-							</div>
-							<div class="form-group">
-								<label for="description">Product Description:</label>
-								<textarea
-									class="form-control"
-									id="description"
-									placeholder="Enter product description"
-									required
-								></textarea>
-							</div>
-							<div class="form-group">
-								<label for="price">Price:</label>
-								<input
-									type="number"
-									class="form-control"
-									id="price"
-									placeholder="Enter price"
-									required
-								/>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button
-							type="button"
-							class="btn btn-secondary"
-							data-bs-dismiss="modal"
-						>
-							Close
-						</button>
-						<button type="button" class="btn btn-primary">ADD</button>
-					</div>
-				</div>
-			</div>
-		</div>
+		
+		
         <!-- Lorem about -->
-        <div class="container col-md-9 vh-100" style="background-color: aliceblue;">
-            <h3 class="text-center">About</h3>
-            <p class="justify-content">
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Odit quas animi, unde? Autem at pariatur quia laboriosam soluta, quibusdam voluptates incidunt quos eligendi architecto tenetur, amet, cupiditate in recusandae, sint quaerat sunt reiciendis voluptatum repudiandae similique odio molestiae laudantium. Fugit illum voluptatum esse facilis, omnis dolorum amet ut sed ea magnam vitae quaerat dolor. Cum dolorum ducimus similique nostrum laudantium pariatur, repudiandae, libero ratione id ut culpa ea consequuntur quia totam magnam quasi quis doloremque dolor quibusdam tenetur asperiores reiciendis! Cupiditate illum, praesentium facere quibusdam minima facilis quam voluptatem, in vel tenetur dolores repellat assumenda ducimus quas distinctio sequi ab numquam sunt laudantium voluptatibus modi dolor at nulla. Amet accusamus officiis itaque reiciendis architecto repellat, suscipit? Modi distinctio rerum voluptatum, natus, ad repellendus corporis adipisci veritatis aliquam, commodi sed non recusandae nesciunt facere mollitia optio, ipsa eligendi minus sequi amet? Officiis distinctio mollitia, laborum beatae deleniti sint, ipsa soluta similique?
-                Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Odit quas animi, unde? Autem at pariatur quia laboriosam soluta, quibusdam voluptates incidunt quos eligendi architecto tenetur, amet, cupiditate in recusandae, sint quaerat sunt reiciendis voluptatum repudiandae similique odio molestiae laudantium. Fugit illum voluptatum esse facilis, omnis dolorum amet ut sed ea magnam vitae quaerat dolor. Cum dolorum ducimus similique nostrum laudantium pariatur, repudiandae, libero ratione id ut culpa ea consequuntur quia totam magnam quasi quis doloremque dolor quibusdam tenetur asperiores reiciendis! Cupiditate illum, praesentium facere quibusdam minima facilis quam voluptatem, in vel tenetur dolores repellat assumenda ducimus quas distinctio sequi ab numquam sunt laudantium voluptatibus modi dolor at nulla. Amet accusamus officiis itaque reiciendis architecto repellat, suscipit? Modi distinctio rerum voluptatum, natus, ad repellendus corporis adipisci veritatis aliquam, commodi sed non recusandae nesciunt facere mollitia optio, ipsa eligendi minus sequi amet? Officiis distinctio mollitia, laborum beatae deleniti sint, ipsa soluta similique?
-
-            </p>
+        <div class="container col-md-9 bg-secondary" style="background-color: aliceblue;">
+            <h3 class="text-center">About Us</h3>
+            <div class="container-fluid row p-3">
+				<div class="col-md-6"><img width="520" height="300" src="img/other/men-collection.jpg" alt=""></div>
+				<div class="col-md-6 text-justify" ><p style="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, aut! Beatae, ipsa! Quisquam saepe minima maxime ex placeat consequatur molestias assumenda. Reprehenderit quia asperiores dignissimos expedita, eaque ipsa perspiciatis minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed sequi, officia necessitatibus accusantium mollitia doloribus obcaecati, debitis sapiente, nemo nisi a ex sint deleniti quam soluta eos ea laborum!</p></div>
+				<br>
+			<div class="container-fluid row p-4">
+				<div class="col-md-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, deserunt. Illum ducimus minus, assumenda enim qui est, neque nemo odio modi et fugiat voluptatibus nostrum facere quaerat provident libero ipsum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit inventore dolores magni in sequi, aut exercitationem facere quos cupiditate nemo id debitis reiciendis eos molestiae non, a adipisci excepturi.</div>
+				<div class="col-md-6"><img width="550" height="300" src="img/other/women-collection.jpg" alt=""></div>
+			</div>
         </div>
-        <!-- footer -->
-        <footer class="bg-dark text-center sticky-bottom text-white">
-            <!-- Grid container -->
-            <div class="container p-4 pb-0">
-              <!-- Section: Social media -->
-              <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-          
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-          
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                  ><i class="fab fa-google"></i
-                ></a>
-          
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-          
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-          
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </section>
-              <!-- Section: Social media -->
-            </div>
-            <!-- Grid container -->
-          
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2020 Copyright:
-              <a class="text-white" href="#">ECOMMERCE.COM</a>
-            </div>
-            <!-- Copyright -->
-          </footer>
+
+		<!-- footer -->
+		<footer class="bg-dark text-center text-white">
+			<!-- Grid container -->
+			<div class="container p-4 pb-0">
+				<!-- Section: Social media -->
+				<section class="mb-4">
+					<!-- Facebook -->
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-facebook-f"></i
+					></a>
+
+					<!-- Twitter -->
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-twitter"></i
+					></a>
+
+					<!-- Google -->
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-google"></i
+					></a>
+
+					<!-- Instagram -->
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-instagram"></i
+					></a>
+
+					<!-- Linkedin -->
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-linkedin-in"></i
+					></a>
+
+					<!-- Github -->
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-github"></i
+					></a>
+				</section>
+				<!-- Section: Social media -->
+			</div>
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div
+				class="text-center p-3"
+				style="background-color: rgba(0, 0, 0, 0.2)"
+			>
+				© 2020 Copyright:
+				<a class="text-white" href="#">ECOMMERCE.COM</a>
+			</div>
+			<!-- Copyright -->
+		</footer>
           
     </body>
 </html>
